@@ -3,7 +3,7 @@ import React from 'react';
 function Input(placeholder: string) {
     return (
         <div>
-            <input placeholder={placeholder}/>
+            <input className="kuju" placeholder={placeholder}/>
 
         </div>
     );

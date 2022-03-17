@@ -1,1 +1,32 @@
+.class-test {
+    height: 100vh;
+    background: linear-gradient(220deg, rgba(186,55,99,1) 0%, rgba(45,59,153,1) 100%);
+    font-family: Arial;
+    color: white;
+    font-size:25px ;
+}
 
+.chat-container {
+    height: 500px;
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.card{
+    background-color: gray;
+    width: auto;
+    border-radius: 5px;
+}
+.kuju {
+    width: auto;
+}
