@@ -1,10 +1,18 @@
 import React from 'react';
 
-function Card() {
+interface Chat {
+    message: string;
+    author: string;
+    date: string;
+}
+
+function Card({message, author, date}) {
     return (
         <div className="card">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p>{message}</p>
+            <p>{author}</p>
+            <p>{date}</p>
+
         </div>
     );
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "John Smith",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "date": "2022-01-12T20:30:52.1235"
+  },
+  {
+    "id": 2,
+    "username": "John Smith",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "date": "2022-01-12T20:30:52.1235"
+  },
+  {
+    "id": 3,
+    "username": "John Smith",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "date": "2022-01-12T20:30:52.1235"
+  },
+  {
+    "id": 4,
+    "username": "John Smith",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "date": "2022-01-12T20:30:52.1235"
+  }
+]

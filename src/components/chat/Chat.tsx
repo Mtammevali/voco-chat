@@ -1,17 +1,20 @@
 import React from 'react';
+import data from '../../data.json';
 import Card from "../card/Card";
-import Input from "../input/Input";
+
+
 
 function Chat() {
     return (
-        <div>
+        <div className="Chat">
            <p>VOCO CHAT 0.0.1</p>
 
-            <div className="card"> <Card/> </div>
-            <div className="card"> <Card/> </div>
-            <div className="card"> <Card/> </div>
-            <div className="card"> <Card/> </div>
-            <div className="input"> <input/></div>
+            {data.map((item) => {
+                return (<Card
+            message={item.message}
+            author={item.username}
+            date={item.date} />)
+                })}
         </div>
     );
 }
