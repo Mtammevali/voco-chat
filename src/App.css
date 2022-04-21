@@ -1,19 +1,24 @@
+
 .class-test {
     height: 100vh;
     background: linear-gradient(220deg, rgba(186,55,99,1) 0%, rgba(45,59,153,1) 100%);
     font-family: Arial;
     color: white;
-    font-size:25px ;
+    /*display: flex;
+    align-items: center;*/
 }
 
 .chat-container {
+    justify-content: center;
     height: 500px;
-    width: 500px;
-    margin-top: 300px;
-    margin-left: 500px;
+    width: 60%;
+    margin: auto;
     border-radius: 10px;
     background-color: #222;
     color: white;
+    overflow: scroll;
+    padding: 5px;
+    display: flex;
 }
 
 p {
@@ -23,9 +28,11 @@ p {
 }
 
 .card{
-    background-color: gray;
-    width: auto;
+    background-color: grey;
+    width: 75vh;
+    height: 15vh;
     border-radius: 5px;
+
 }
 .kuju {
     width: auto;

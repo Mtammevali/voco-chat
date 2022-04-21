@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface Chat {
+interface ChatProps {
     message: string;
     author: string;
     date: string;
 }
 
-function Card({message, author, date}) {
+function Card({message,author, date}:ChatProps ) {
     return (
         <div className="card">
             <p>{message}</p>
